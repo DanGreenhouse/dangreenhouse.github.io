@@ -3,13 +3,18 @@
 <SCRIPT>
 function passWord() {
 var testV = 1;
-var pass1 = prompt('Please Enter Your Password',' ');
+var pass1 = prompt('Please Enter Your Password','');
 while (testV < 3) {
 if (!pass1)
 history.go(-1);
 if (pass1.toLowerCase() == "md2019") {
 alert('Proceeding to card, please allow all pop-ups in your browser');
-window.open('https://dangreenhouse.github.io/src/scripts/screen1.html');
+window.open('https://dangreenhouse.github.io/src/scripts/card1/front.html');
+break;
+}
+if (pass1.toLowerCase() == "Sani") {
+alert('Proceeding to card, please allow all pop-ups in your browser');
+window.open('https://dangreenhouse.github.io/src/scripts/card2/back.html');
 break;
 }
 testV+=1;
