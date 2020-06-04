@@ -27,9 +27,11 @@ function back_page() {
   </div>
  </body>
  
-<CENTER>
-<FORM>
-<input type="button" value="Turn over3" onClick="back_page()'">
-</FORM>
-</CENTER>
+<button id="myButton" class="float-left submit-button" >Home</button>
+
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "www.yoursite.com";
+    };
+</script>
 </html>
