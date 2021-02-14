@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Test</title>
+    <script type="text/css">
+        .center {
+          margin: 0 auto;
+        }
+        </script>
+  </head>
+  <body>
+  <video width="480" autoplay="autoplay" height="360" class='center' controls>
+  <source src="Videos/Sara_VDay.mp4" type="video/mp4">
+  <source src="Videos/Sara_VDay.ogv" type="video/ogg">
+  Your browser does not support the video tag.
+  </video>
+  </body>
+</html>
